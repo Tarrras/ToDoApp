@@ -1,6 +1,6 @@
 class Task {
   int id;
-  DateTime dueToDay;
+  String dueToDay;
   String description;
   String title;
   Task({this.id, this.dueToDay, this.description, this.title});
